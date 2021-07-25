@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/watchman-website/static/css/main.ca9f791e.chunk.css",
+    "main.js": "/watchman-website/static/js/main.b668db1e.chunk.js",
+    "main.js.map": "/watchman-website/static/js/main.b668db1e.chunk.js.map",
+    "runtime-main.js": "/watchman-website/static/js/runtime-main.7b61c1b6.js",
+    "runtime-main.js.map": "/watchman-website/static/js/runtime-main.7b61c1b6.js.map",
+    "static/js/2.150c8c45.chunk.js": "/watchman-website/static/js/2.150c8c45.chunk.js",
+    "static/js/2.150c8c45.chunk.js.map": "/watchman-website/static/js/2.150c8c45.chunk.js.map",
+    "index.html": "/watchman-website/index.html",
+    "precache-manifest.6ca2aef95b0295b19cbb4333b4087a8b.js": "/watchman-website/precache-manifest.6ca2aef95b0295b19cbb4333b4087a8b.js",
+    "service-worker.js": "/watchman-website/service-worker.js",
+    "static/css/main.ca9f791e.chunk.css.map": "/watchman-website/static/css/main.ca9f791e.chunk.css.map",
+    "static/js/2.150c8c45.chunk.js.LICENSE.txt": "/watchman-website/static/js/2.150c8c45.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/watchman-website/static/media/logo.f90a8ed4.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7b61c1b6.js",
+    "static/js/2.150c8c45.chunk.js",
+    "static/css/main.ca9f791e.chunk.css",
+    "static/js/main.b668db1e.chunk.js"
+  ]
+}
