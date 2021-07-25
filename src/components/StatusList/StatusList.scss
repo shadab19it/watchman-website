@@ -1,0 +1,74 @@
+@import "../../variables.scss";
+
+.list-wrapper,
+.list-header,
+.list-body,
+.list-footer {
+  display: flex;
+}
+
+.list-wrapper {
+  width: 100%;
+  flex-direction: column;
+  .list-header {
+    justify-content: space-between;
+    h3 {
+      font-size: 1.2rem;
+      color: $lt-font-color;
+      .Q-icon {
+        margin-left: 5px;
+        color: #c8c4c4;
+        &:hover {
+          color: #5d5b5b;
+        }
+      }
+    }
+    p {
+      cursor: pointer;
+      font-size: 1rem;
+      margin-top: 8px;
+      margin-bottom: 0;
+      color: #00eb8b;
+    }
+  }
+  .list-body {
+    justify-content: space-between;
+    width: 100%;
+    .bar {
+      cursor: pointer;
+      width: 5px;
+      height: 35px;
+      background-color: #0dd180;
+      margin-left: 2px;
+      border-radius: 30px;
+      &:hover {
+        background-color: #333;
+        transform: scale(1.1);
+      }
+    }
+  }
+  .list-footer {
+    justify-content: space-between;
+    align-items: center;
+    color: #8da2b5;
+    opacity: 0.5;
+    font-size: 0.9rem;
+    .before-day {
+      min-width: 90px;
+    }
+
+    .divider {
+      font-size: 0.9rem;
+      margin: 8px 18px 8px 5px;
+      min-width: auto;
+      .uptimePer {
+        color: #8da2b5;
+        font-size: 0.9rem;
+      }
+      &::before,
+      &::after {
+        border-top: 1.5px solid #e9e7e7;
+      }
+    }
+  }
+}

@@ -1,0 +1,63 @@
+@import "../../variables.scss";
+
+.navbar {
+  justify-content: space-between;
+  padding: 12px 20px;
+  background-color: #fff;
+}
+
+.brand-logo > a > img {
+  height: 48px;
+  width: 48px;
+}
+
+.logo-wrapper,
+.navbar,
+.brand-logo,
+.nav-options {
+  display: flex;
+}
+
+.logo-wrapper {
+  font-size: 1.8rem;
+  font-weight: 600;
+  .brand-logo {
+    align-items: center;
+    img {
+      max-width: 36px;
+    }
+  }
+  .org-name {
+    padding-left: 10px;
+    margin-top: 0px;
+    color: $dark-side-navbg;
+    display: flex;
+    align-items: center;
+    .brand {
+      color: $lt-font-color;
+      &:hover {
+        color: $lt-btn-primary-hover;
+      }
+    }
+  }
+}
+.nav-options {
+  align-items: center;
+
+  .options-panel {
+    background-color: none;
+    border: 0;
+    .ant-menu-item {
+      font-size: 1.2rem;
+      font-weight: 600;
+      color: $lt-font-color;
+
+      & > a {
+        color: $lt-font-color;
+        &:hover {
+          color: $lt-font-color;
+        }
+      }
+    }
+  }
+}
