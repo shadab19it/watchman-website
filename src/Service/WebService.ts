@@ -15,7 +15,7 @@ export default class WebService {
     this.protocol = protocol;
   }
 
-  apiEndpoint = process.env.REACT_APP_API_ENDPOINT || "http://localhost:4000";
+  apiEndpoint = "http://localhost:4000";
   private getPath = (path: string): string => {
     return `${this.apiEndpoint}${path}`;
   };
